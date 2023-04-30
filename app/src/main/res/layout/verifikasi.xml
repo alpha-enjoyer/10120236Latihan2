@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@color/light_blue"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="-150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Almost There"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"
+            android:textSize="36sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_marginBottom="100dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="Thank you for registering with us. One more step, you need to check your email to activate your account"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_verifikasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_verify"
+            android:textColor="@color/white"
+            android:text="Verify"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
